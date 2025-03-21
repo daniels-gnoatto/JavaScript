@@ -147,6 +147,22 @@ while(numero < 20 ) {
 }
 */
 
+let string = prompt('Teste');
+
+function verificarPalindromo(string) {
+
+    let reverse = (string.split('').reverse().join(''));
+    if (reverse === string) {
+        console.log (' é um palindromo');
+    }
+    else {
+        console.log (' não é um palindromo');
+}
+
+}
+verificarPalindromo(string)
+
+
     
 
 
